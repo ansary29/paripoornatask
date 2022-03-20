@@ -1,0 +1,16 @@
+.profile {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-size: contain;
+  transition: transform;
+  border: 2px solid rgba(5, 2, 143, 0.925);
+  padding: 2px;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}

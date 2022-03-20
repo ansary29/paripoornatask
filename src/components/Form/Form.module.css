@@ -1,0 +1,32 @@
+.form {
+  margin-top: 3rem;
+  border: 3px solid rgba(1, 85, 15, 0.541);
+  padding: 3rem;
+  position: relative;
+  border-radius: 10px;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form::before {
+    color: rgb(6, 9, 12);
+  content: " Employee Registration";
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  font-size: 1.2rem;
+  background-color: rgb(16, 131, 31);
+  padding: 0 10px;
+  font-weight: 700;
+  padding: 0.4rem;
+  border-radius: 5px;
+}
+
+.fileInput {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
